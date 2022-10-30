@@ -5,7 +5,7 @@ super();
 this.state = { displayBio: false,
 description: 'React is the most used js library'
 };
-//this.props.title="teste"; forbidden
+//this.props.title="teste"; forbidden 
 console.log('Component this', this);
 this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
 }
